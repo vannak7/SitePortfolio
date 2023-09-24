@@ -49,6 +49,7 @@ button:hover {
 
 a {
     text-decoration: none;
+    color: #1e1e1e;
 }
 
 li {
@@ -381,6 +382,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 16px;
 }
 
 .section-contact-item-icon {
