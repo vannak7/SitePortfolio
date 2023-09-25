@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
+    <script src="index.js"></script>
     <title>Vanna K</title>
 </head>
 
@@ -17,12 +17,16 @@
                         <h2 class="titulo-navegacao">Vanna K</h2>
                     </div>
                     <div>
-                        <a class="links-navegacao" href="">Habilidades</a>
-                        <a class="links-navegacao" href="">Portfólio</a>
-                        <a class="links-navegacao" href="">Experiência</a>
+                        <a 
+                        onclick="onClickScrollTo('section-ability')" 
+                        class="links-navegacao">Habilidades</a>
+                        <a 
+                        onclick="onClickScrollTo('section-portfolio')" class="links-navegacao">Portfólio</a>
+                        <a 
+                        onclick="onClickScrollTo('section-experiences')" class="links-navegacao">Experiência</a>
                     </div>
                     <div>
-                        <button>Contato</button>
+                        <button onclick="onClickScrollTo('section-contact')">Contato</button>
                     </div>
                 </header>
                 <main class="hero-info">
@@ -34,7 +38,7 @@
                         <p class="hero-info-subtitle">
                             Desenvolvedora web desde 2022, com foco em Front-End.
                         </p>
-                        <button>Entrar em contato</button>
+                        <button onclick="onClickScrollTo('section-contact')">Entrar em contato</button>
                         <div class="hero-info-icons-container">
                             <a href="">
                                 <img class="hero-info-icons-img" src="./img/logo-github.png" alt="github">
@@ -56,7 +60,7 @@
                 </main>
             </section>
         
-            <section class="section-ability">
+            <section class="section-ability" id="section-ability">
                 <h2>Habilidades <br>
                     <b id="color">que domino.</b>
                 </h2>
@@ -128,7 +132,7 @@
                 </div>
             </section>
             
-            <section class="section-portfolio">
+            <section class="section-portfolio" id="section-portfolio">
                 <h2>Portfólio <br>
                     <b id="color">de projetos.</b>
                 </h2>
@@ -184,7 +188,7 @@
                 </div>
             </section>
 
-            <section class="section-experiences">
+            <section class="section-experiences" id="section-experiences">
                 <h2>Experiências <br>
                     <b id="color">Profissionais.</b>
                 </h2>
@@ -210,7 +214,7 @@
                 </div>
             </section>
 
-            <section class="section-contact">
+            <section class="section-contact" id="section-contact">
                 <h2>Como posso <br>
                     <b id="color">te ajudar?</b>
                 </h2>
