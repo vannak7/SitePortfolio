@@ -27,4 +27,5 @@ site-portfolio
 
 3. Open the index with the browser:
 ```
-index.html```
+index.html
+```
