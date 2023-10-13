@@ -14,3 +14,17 @@ The main goal is create a website with my professional information.
 - Events
 - CSS Media Query
 
+## Instruction to run:
+1. Clone the project:
+```
+git clone https://github.com/vannak7/SitePortfolio.git
+```
+
+2. After clone open the folder:
+```
+site-portfolio
+```
+
+3. Open the index with the browser:
+```
+index.html```
