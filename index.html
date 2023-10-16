@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <script src="index.js"></script>
     <title>Vanna K</title>
 </head>
 
 <body>
-    <div class="root-container ">
+    <div class="root-container">
         <div class="content-container">
             <section class="section-hero">
                 <header class="barra-navegacao">
@@ -25,18 +26,19 @@
                         <a 
                         onclick="onClickScrollTo('section-experiences')" class="links-navegacao">Experiência</a>
                     </div>
-                    <div>
+                    <div class="button1">
                         <button onclick="onClickScrollTo('section-contact')">Contato</button>
                     </div>
                 </header>
                 <main class="hero-info">
-                    <div>
+                    <div class="hero-info-text-container">
                         <h1 class="hero-info-title">
                             Olá, muito prazer!<br>
                             Sou a <b id="color">Vanna K.</b>
                         </h1>
                         <p class="hero-info-subtitle">
-                            Desenvolvedora web desde 2022, com foco em Front-End.
+                            Desenvolvedora web desde 2022, <br>
+                            com foco em Front-End.
                         </p>
                         <button onclick="onClickScrollTo('section-contact')">Entrar em contato</button>
                         <div class="hero-info-icons-container">
@@ -218,7 +220,7 @@
                 <h2>Como posso <br>
                     <b id="color">te ajudar?</b>
                 </h2>
-                <p>Estou à disposição para ajudar o seu projeto ou sua empresa.</p>
+                <p class="contact-text">Estou à disposição para ajudar o seu projeto ou sua empresa.</p>
                 <div class="section-contact-item">
                     <img class="section-contact-item-icon" src="./img/mail.png" alt="mail icon">
                     <a 

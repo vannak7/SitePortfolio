@@ -29,7 +29,7 @@ h5 {
 }
 
 button {
-    height: 56px;
+    height: 46px;
     border-radius: 16px;
     background-color: rgb(195, 101, 7);
     color: white;
@@ -81,7 +81,7 @@ footer {
 .root-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     align-items: center;
 }
 
@@ -99,7 +99,7 @@ footer {
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    /* height: 90vh; */
+    height: 70vh;
 }
 
 .barra-navegacao {
@@ -155,7 +155,7 @@ footer {
 }
 
 .hero-info-image {
-    height: 444px;
+    height: 100%;
     width: 402px;
     border-radius: 40px;
     border-color: rgb(195, 101, 7);
@@ -188,7 +188,7 @@ footer {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    padding-top: 64px;
+    padding-top: 50px;
     padding-bottom: 64px;
 }
 
@@ -258,7 +258,6 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 48px;
-
 }
 
 .section-portfolio-card {
@@ -410,3 +409,6 @@ footer {
     justify-content: space-between;
     width: 40%;
 }
+
+
+
